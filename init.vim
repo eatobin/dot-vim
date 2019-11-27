@@ -16,6 +16,10 @@ Plug 'https://github.com/ntpeters/vim-better-whitespace.git'
 " For vim-hindent
 Plug 'https://github.com/alx741/vim-hindent.git'
 
+" For fzf
+Plug 'https://github.com/junegunn/fzf.git', { 'dir': '~/.fzf', 'do': './install --bin' }
+Plug 'https://github.com/junegunn/fzf.vim.git'
+
 call plug#end()
 
 " Colorscheme
