@@ -44,6 +44,8 @@ set noswapfile
 set showcmd
 set noshowmode
 set smartcase
+set number
+syntax on
 "This unsets the "last search pattern" register by hitting return
 nnoremap <CR> :noh<CR><CR>
 set guicursor=i:hor100-iCursor-blinkon1
