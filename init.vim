@@ -13,8 +13,8 @@ Plug 'https://github.com/airblade/vim-gitgutter.git'
 Plug 'https://github.com/tpope/vim-sensible.git'
 Plug 'https://github.com/ntpeters/vim-better-whitespace.git'
 
-" For vim-hindent
-Plug 'https://github.com/alx741/vim-hindent.git'
+" For vim-stylish-haskell
+Plug 'https://github.com/nbouscal/vim-stylish-haskell.git'
 
 " For fzf
 Plug 'https://github.com/junegunn/fzf.git', { 'dir': '~/.fzf', 'do': './install --bin' }
@@ -110,5 +110,5 @@ let g:NERDCustomDelimiters = {
 " terminal
 :tnoremap <Esc> <C-\><C-n>
 
-" For haskell-vim
-let g:hindent_command = "stack exec -- hindent"
+" For vim-stylish-haskell
+let g:stylish_haskell_command = "stack exec -- stylish-haskell"
