@@ -53,9 +53,6 @@ syntax on
 set guicursor=i:hor100-iCursor-blinkon1
 au VimLeave * set guicursor=a:hor100-iCursor-blinkon1
 
-" Update sign column every quarter second
-set updatetime=250
-
 "This unsets the "last search pattern" register by hitting return
 nnoremap <CR> :noh<CR><CR>
 
