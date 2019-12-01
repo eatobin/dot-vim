@@ -16,6 +16,12 @@ Plug 'https://github.com/ntpeters/vim-better-whitespace.git'
 " For vim-stylish-haskell
 Plug 'https://github.com/nbouscal/vim-stylish-haskell.git'
 
+" For vim-hindent
+Plug 'https://github.com/alx741/vim-hindent.git'
+
+" For haskell-vim
+Plug 'https://github.com/neovimhaskell/haskell-vim.git'
+
 " For fzf
 Plug 'https://github.com/junegunn/fzf.git', { 'dir': '~/.fzf', 'do': './install --bin' }
 Plug 'https://github.com/junegunn/fzf.vim.git'
@@ -50,6 +56,7 @@ set noshowmode
 set smartcase
 set number
 syntax on
+filetype plugin indent on
 set guicursor=i:hor100-iCursor-blinkon1
 au VimLeave * set guicursor=a:hor100-iCursor-blinkon1
 
@@ -112,3 +119,6 @@ let g:NERDCustomDelimiters = {
 
 " For vim-stylish-haskell
 let g:stylish_haskell_command = "stack exec -- stylish-haskell"
+
+" For vim-hindent
+let g:hindent_command = "stack exec -- hindent"
