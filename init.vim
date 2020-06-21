@@ -1,4 +1,4 @@
-" Hi Eric! I'm really: ~/dotfiles/vim/init.vim
+" Hi Eric! I'm really: ~/dotfiles/dot-vim/init.vim
 
 call plug#begin('~/.config/nvim/plugged/')
 
