@@ -12,15 +12,22 @@ Plug 'https://github.com/tpope/vim-fugitive.git'
 Plug 'https://github.com/airblade/vim-gitgutter.git'
 Plug 'https://github.com/tpope/vim-sensible.git'
 Plug 'https://github.com/ntpeters/vim-better-whitespace.git'
+Plug 'https://github.com/tpope/vim-surround.git'
+Plug 'https://github.com/tpope/vim-repeat.git'
 
-" For vim-stylish-haskell
-Plug 'https://github.com/nbouscal/vim-stylish-haskell.git'
+" https://thoughtbot.com/blog/writing-clojure-in-vim
 
-" For vim-hindent
-Plug 'https://github.com/alx741/vim-hindent.git'
+" For vim-sexp
+Plug 'https://github.com/guns/vim-sexp.git'
 
-" For haskell-vim
-Plug 'https://github.com/neovimhaskell/haskell-vim.git'
+" For vim-sexp
+Plug 'https://github.com/guns/vim-sexp.git'
+
+" For vim-sexp-mappings-for-regular-people
+Plug 'https://github.com/tpope/vim-sexp-mappings-for-regular-people.git'
+
+" For conjure
+Plug 'https://github.com/Olical/conjure.git'
 
 " For fzf
 Plug 'https://github.com/junegunn/fzf.git', { 'dir': '~/.fzf', 'do': './install --bin' }
@@ -102,26 +109,14 @@ nnoremap <leader>nr :call NumberRelative()<cr>
 
 " NerdTree
 let g:NERDTreeHijackNetrw = 1
-map <leader>n :NERDTreeToggle<CR>
-
+map <leader>nt :NERDTreeToggle<CR>
 
 " GitGutter
 let g:gitgutter_enabled = 1
 set updatetime=250
 
-" NerdCommenter
-let g:NERDCustomDelimiters = {
-    \ 'haskell': { 'left': '--' },
-    \ }
-
 " terminal
 :tnoremap <Esc> <C-\><C-n>
-
-" For vim-stylish-haskell
-let g:stylish_haskell_command = "stack exec -- stylish-haskell"
-
-" For vim-hindent
-let g:hindent_command = "stack exec -- hindent"
 
 " Jump between hunks
 nmap <Leader>gn <Plug>(GitGutterNextHunk)  " git next
