@@ -26,8 +26,8 @@ Plug 'https://github.com/guns/vim-sexp.git'
 " For vim-sexp-mappings-for-regular-people
 Plug 'https://github.com/tpope/vim-sexp-mappings-for-regular-people.git'
 
-" For conjure -- DISABLED
-"Plug 'https://github.com/Olical/conjure.git'
+" For vim-fireplace
+Plug 'https://tpope.io/vim/fireplace.git'
 
 " For fzf
 Plug 'https://github.com/junegunn/fzf.git', { 'dir': '~/.fzf', 'do': './install --bin' }
