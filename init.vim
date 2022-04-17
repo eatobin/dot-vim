@@ -20,9 +20,6 @@ Plug 'https://github.com/tpope/vim-repeat.git'
 " For vim-sexp
 Plug 'https://github.com/guns/vim-sexp.git'
 
-" For vim-sexp
-Plug 'https://github.com/guns/vim-sexp.git'
-
 " For vim-sexp-mappings-for-regular-people
 Plug 'https://github.com/tpope/vim-sexp-mappings-for-regular-people.git'
 
