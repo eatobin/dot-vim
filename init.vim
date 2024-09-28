@@ -15,17 +15,6 @@ Plug 'https://github.com/ntpeters/vim-better-whitespace.git'
 Plug 'https://github.com/tpope/vim-surround.git'
 Plug 'https://github.com/tpope/vim-repeat.git'
 
-" https://thoughtbot.com/blog/writing-clojure-in-vim
-
-" For vim-sexp
-Plug 'https://github.com/guns/vim-sexp.git'
-
-" For vim-sexp-mappings-for-regular-people
-Plug 'https://github.com/tpope/vim-sexp-mappings-for-regular-people.git'
-
-" For vim-fireplace
-Plug 'https://tpope.io/vim/fireplace.git'
-
 " For fzf
 Plug 'https://github.com/junegunn/fzf.git', { 'dir': '~/.fzf', 'do': './install --bin' }
 Plug 'https://github.com/junegunn/fzf.vim.git'
