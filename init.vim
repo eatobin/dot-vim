@@ -48,7 +48,6 @@ set showcmd
 set noshowmode
 set smartcase
 set number
-set updatetime=100
 syntax on
 filetype plugin indent on
 set guicursor=i:hor100-iCursor-blinkon1
@@ -100,7 +99,8 @@ map <leader>nt :NERDTreeToggle<CR>
 
 " GitGutter
 let g:gitgutter_enabled = 1
-set updatetime=250
+set updatetime=100
+set signcolumn=yes:1
 
 " terminal
 :tnoremap <Esc> <C-\><C-n>
