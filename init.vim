@@ -48,6 +48,7 @@ set showcmd
 set noshowmode
 set smartcase
 set number
+set updatetime=100
 syntax on
 filetype plugin indent on
 set guicursor=i:hor100-iCursor-blinkon1
