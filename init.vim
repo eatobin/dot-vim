@@ -22,8 +22,8 @@ Plug 'https://github.com/junegunn/fzf.vim.git'
 call plug#end()
 
 " Colorscheme
-set termguicolors
-" set colorcolumn=80
+colorscheme slate
+set colorcolumn=80
 
 " For Airline
 let g:airline_powerline_fonts                   = 1
